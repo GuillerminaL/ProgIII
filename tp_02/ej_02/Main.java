@@ -1,6 +1,6 @@
 package Prog_III_2023.tp_02.ej_02;
 
-import Prog_III_2023.tp_02.SortMethods.QuickSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.QuickSort;
 
 public class Main {
 

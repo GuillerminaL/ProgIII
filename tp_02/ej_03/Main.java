@@ -1,11 +1,11 @@
 package Prog_III_2023.tp_02.ej_03;
 
-import Prog_III_2023.tp_02.SortMethods.SortMethod;
-import Prog_III_2023.tp_02.SortMethods.AdaptiveBubbleSort;
-import Prog_III_2023.tp_02.SortMethods.BubbleSort;
-import Prog_III_2023.tp_02.SortMethods.SelectionSort;
-import Prog_III_2023.tp_02.SortMethods.MergeSort;
-import Prog_III_2023.tp_02.SortMethods.QuickSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.SortingAlgorithm;
+import Prog_III_2023.tp_02.SortingAlgorithms.AdaptiveBubbleSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.BubbleSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.SelectionSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.MergeSort;
+import Prog_III_2023.tp_02.SortingAlgorithms.QuickSort;
 
 public class Main {
 
@@ -13,11 +13,11 @@ public class Main {
 
         TimeComplexityTest test = new TimeComplexityTest();
 
-        SortMethod selection = new SelectionSort();
-        SortMethod bubble = new BubbleSort();
-        SortMethod bubbleAdapt = new AdaptiveBubbleSort();
-        SortMethod merge = new MergeSort();
-        SortMethod quick = new QuickSort();
+        SortingAlgorithm selection = new SelectionSort();
+        SortingAlgorithm bubble = new BubbleSort();
+        SortingAlgorithm bubbleAdapt = new AdaptiveBubbleSort();
+        SortingAlgorithm merge = new MergeSort();
+        SortingAlgorithm quick = new QuickSort();
 
         int n = 10;
 

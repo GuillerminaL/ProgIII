@@ -1,8 +1,6 @@
-package Prog_III_2023.tp_02.SortMethods;
+package Prog_III_2023.tp_02.SortingAlgorithms;
 
-import Prog_III_2023.tp_02.SortMethods.SortMethod;
-
-public class MergeSort extends SortMethod {
+public class MergeSort extends SortingAlgorithm {
 
     private int[] arr;
     private int[] helper;

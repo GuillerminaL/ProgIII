@@ -1,6 +1,6 @@
 package Prog_III_2023.tp_02.ej_03;
 
-import Prog_III_2023.tp_02.SortMethods.SortMethod;
+import Prog_III_2023.tp_02.SortingAlgorithms.SortingAlgorithm;
 import Prog_III_2023.util.Timer;
 
 import java.util.Arrays;
@@ -28,12 +28,12 @@ public class TimeComplexityTest {
         System.out.println(st + " ]");
     }
 
-    public double run(SortMethod sortMethod, int n) {
+    public double run(SortingAlgorithm sortingAlgorithm, int n) {
         int[] arr;
         timer.start();
         for (int i = 0; i <= 10000; i++) {
             arr = this.getRandomNumbersArray(n);
-            sortMethod.sort(arr);
+            sortingAlgorithm.sort(arr);
 
 //            print(arr);
 
