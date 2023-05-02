@@ -1,4 +1,4 @@
-package Prog_III_2023.tp_02.SortingAlgorithms;
+package Prog_III_2023.tp_02.Sort.SortingAlgorithms;
 
 public class AdaptiveBubbleSort extends SortingAlgorithm {
 

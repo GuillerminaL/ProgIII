@@ -1,6 +1,6 @@
-package Prog_III_2023.tp_02.ej_03;
+package Prog_III_2023.tp_02.Sort.ej_03;
 
-import Prog_III_2023.tp_02.SortingAlgorithms.SortingAlgorithm;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.SortingAlgorithm;
 import Prog_III_2023.util.Timer;
 
 import java.util.Arrays;

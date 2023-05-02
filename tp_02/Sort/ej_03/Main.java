@@ -1,11 +1,11 @@
-package Prog_III_2023.tp_02.ej_03;
+package Prog_III_2023.tp_02.Sort.ej_03;
 
-import Prog_III_2023.tp_02.SortingAlgorithms.SortingAlgorithm;
-import Prog_III_2023.tp_02.SortingAlgorithms.AdaptiveBubbleSort;
-import Prog_III_2023.tp_02.SortingAlgorithms.BubbleSort;
-import Prog_III_2023.tp_02.SortingAlgorithms.SelectionSort;
-import Prog_III_2023.tp_02.SortingAlgorithms.MergeSort;
-import Prog_III_2023.tp_02.SortingAlgorithms.QuickSort;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.SortingAlgorithm;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.AdaptiveBubbleSort;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.BubbleSort;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.SelectionSort;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.MergeSort;
+import Prog_III_2023.tp_02.Sort.SortingAlgorithms.QuickSort;
 
 public class Main {
 
